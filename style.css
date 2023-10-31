@@ -1,0 +1,85 @@
+/* Colors and fonts */
+body {
+  background-color: rgb(47, 79, 79);
+  color: black;
+  font-family: 'Futura Heavy Oblique', serif;
+  font-size: 19px;
+font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: Futura Heavy Oblique ;
+}
+h1 {
+    color: black;s
+  font-size: 45px;
+}
+h2 {
+    color: rgb(95, 95, 95, 1.0);
+    font-size: 25px;
+  font-weight: lighter;
+}
+a {
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+   color: #6B72E1;
+   font-weight: 650;
+   font-size: 18px;
+}
+a:hover {
+  color: black;
+}
+
+/* Custom design with class*/
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+S
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+.card-white {
+    background-color: rgb(192, 206, 202);
+    padding: 60px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 25px 0px;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.btn-blue {
+    background-color:#6B72E1 ;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 50px;
+}
+
+/* Design adjustements using id (1% design remaining) */
+#introduction p {
+    margin-bottom: 40px;
+}
